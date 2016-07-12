@@ -12,15 +12,15 @@
 		<meta name="keywords" content="kitchen remodeling,bathroom remodeling, montgomery county remodeling,delaware county home renovations,Plymouth Meeting PA">
 		<meta name="description" content=" full-service remodeling company  providing home remodeling services,kitchen remodeling, bathroom remodeling and more">
 		<meta name="google-site-verification" content="mh6Cu5H4mOcuE8E7W9DfYNWExI0lvwCjUoUmbM0uqaY" />
-		
+
 		<!-- Mobile Specific Meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
-		
+
 		<!-- CSS
 		================================================== -->
-		
+
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-		
+
 		<!-- Fontawesome Icon font -->
         <link rel="stylesheet" href="css/font-awesome.min.css">
 		<!-- bootstrap.min -->
@@ -35,29 +35,136 @@
         <link rel="stylesheet" href="css/animate.css">
 		<!-- Main Stylesheet -->
         <link rel="stylesheet" href="css/main.css">
+        <!-- FontAwesome for slider icons -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
 
 		<!-- Modernizer Script for old Browsers -->
         <script src="js/modernizr-2.6.2.min.js"></script>
 
         <style>
-        /* Open modals on desktop, just link to text pages on mobile */
-        #more-reviews-mobile {
-        	display: none;
-        }
-        @media (max-width: 768px) {
-        	#more-reviews-desktop {
-        		display: none;
-        	}
-        	#more-reviews-mobile {
-        		display: block;
-        	}
-        	#about-more-button {
-        		display: none;
-        	}
-        }
-        </style>
+	        /* Open modals on desktop, just link to text pages on mobile */
+	        #more-reviews-mobile {
+	        	display: none;
+	        }
+	        @media (max-width: 768px) {
+	        	#more-reviews-desktop {
+	        		display: none;
+	        	}
+	        	#more-reviews-mobile {
+	        		display: block;
+	        	}
+	        	#about-more-button {
+	        		display: none;
+	        	}
+	        }
+	        </style>
+	        <!-- Slidejs Styles -->
+	      	<style>
+			#slides {
+			  display: none
+			}
+
+			#slides .slidesjs-navigation {
+			  margin-top:5px;
+			}
+
+			a.slidesjs-next,
+			a.slidesjs-previous,
+			a.slidesjs-play,
+			a.slidesjs-stop {
+			  background-image: url(img/btns-next-prev.png);
+			  background-repeat: no-repeat;
+			  display:block;
+			  width:12px;
+			  height:18px;
+			  overflow: hidden;
+			  text-indent: -9999px;
+			  float: left;
+			  margin-right:5px;
+			}
+
+			a.slidesjs-next {
+			  margin-right:10px;
+			  background-position: -12px 0;
+			}
+
+			a:hover.slidesjs-next {
+			  background-position: -12px -18px;
+			}
+
+			a.slidesjs-previous {
+			  background-position: 0 0;
+			}
+
+			a:hover.slidesjs-previous {
+			  background-position: 0 -18px;
+			}
+
+			a.slidesjs-play {
+			  width:15px;
+			  background-position: -25px 0;
+			}
+
+			a:hover.slidesjs-play {
+			  background-position: -25px -18px;
+			}
+
+			a.slidesjs-stop {
+			  width:18px;
+			  background-position: -41px 0;
+			}
+
+			a:hover.slidesjs-stop {
+			  background-position: -41px -18px;
+			}
+
+			.slidesjs-pagination {
+			  margin: 7px 0 0;
+			  float: right;
+			  list-style: none;
+			}
+
+			.slidesjs-pagination li {
+			  float: left;
+			  margin: 0 1px;
+			}
+
+			.slidesjs-pagination li a {
+			  display: block;
+			  width: 13px;
+			  height: 0;
+			  padding-top: 13px;
+			  background-image: url(img/pagination.png);
+			  background-position: 0 0;
+			  float: left;
+			  overflow: hidden;
+			}
+
+			.slidesjs-pagination li a.active,
+			.slidesjs-pagination li a:hover.active {
+			  background-position: 0 -13px
+			}
+
+			.slidesjs-pagination li a:hover {
+			  background-position: 0 -26px
+			}
+
+			#slides a:link,
+			#slides a:visited {
+			  color: #333
+			}
+
+			#slides a:hover,
+			#slides a:active {
+			  color: #9e2020
+			}
+
+			.navbar {
+			  overflow: hidden
+			}
+		</style>
     </head>
-	
+
     <body id="body">
 
 		<!-- preloader -->
@@ -82,7 +189,7 @@
 						<span class="icon-bar"></span>
                     </button>
 					<!-- /responsive nav button -->
-					
+
 					<!-- logo -->
 					<h1 class="navbar-brand">
 						<a href="#body">Last Detail Custom Carpentry</a>
@@ -102,38 +209,38 @@
                     </ul>
                 </nav>
 				<!-- /main nav -->
-				
+
             </div>
         </header>
         <!--
         End Fixed Navigation
         ==================================== -->
-		
+
 		<main class="site-content" role="main">
-		
+
 			<!-- Social section -->
 			<section id="social" class="parallax">
 				<div class="overlay">
 					<div class="container">
 						<div class="row">
-						
+
 							<div class="sec-title text-center white wow animated fadeInDown logo-container">
 								<img src="./img/LDLogo.png" style="width:326px; height:116px"/>
 							</div>
-							
+
 						</div>
 					</div>
 				</div>
 			</section>
 			<!-- end Social section -->
-			
+
 			<!-- about section -->
 			<section id="about" >
 				<div class="container">
 					<div class="row">
 						<div class="col-md-10 col-md-offset-1 wow animated fadeInRight">
 							<div class="welcome-block">
-								<h3>Welcome To Last Detail Custom Carpentry</h3>								
+								<h3>Welcome To Last Detail Custom Carpentry</h3>
 						     	 <div class="message-body">
 									<img src="img/gregg.png" class="pull-left" alt="member">
 						       		<p>We realize that deciding who to hire to work in your home is an important decision. We, at Last Detail take pride in our work and will treat you and your home with the utmost respect. This begins with returning phone calls promptly, continues with being punctual to appointments, listening to and meeting your needs, supplying a detailed proposal with honest and accurate information and concludes with leaving the job site "broom swept clean". We set our standards higher than other contractors because we know how difficult it can be to find an honest, experienced, respectful, efficient contractor.</p>
@@ -179,11 +286,11 @@
 					        	<h4 class="modal-title">About Us</h4>
 					      	</div>
 					      	<div class="modal-body" style="color: black;">
-								<p>			We realize that deciding who to hire to work in your home is an important decision.  We, at Last Detail take pride in our work and will treat you and your home with the utmost respect.  This begins with returning phone calls promptly, continues with being punctual to appointments, listening to and meeting your needs, supplying a detailed proposal with honest and accurate information and concludes with leaving the job site "broom swept clean".  We set our standards higher than other contractors because we know how difficult it can be to find an honest, experienced, respectful, efficient contractor.  Our goal is to exceed your expectations...to make sure you are satisfied with every "Last Detail"!!!</p>	
+								<p>			We realize that deciding who to hire to work in your home is an important decision.  We, at Last Detail take pride in our work and will treat you and your home with the utmost respect.  This begins with returning phone calls promptly, continues with being punctual to appointments, listening to and meeting your needs, supplying a detailed proposal with honest and accurate information and concludes with leaving the job site "broom swept clean".  We set our standards higher than other contractors because we know how difficult it can be to find an honest, experienced, respectful, efficient contractor.  Our goal is to exceed your expectations...to make sure you are satisfied with every "Last Detail"!!!</p>
 								<br />
-								<p>			Last Detail has successfully completed projects in all aspects of general contracting, pleasing our customers all along the way for more than 16 years.  Additions, bathrooms, kitchen remodels, basements, etc...all of our projects are important to us.  Our experienced team of masons, framers, plumbers, electricians, tile workers, painters and carpenters provides you with all the services needed to complete any and all home remodeling.  </p>	
+								<p>			Last Detail has successfully completed projects in all aspects of general contracting, pleasing our customers all along the way for more than 16 years.  Additions, bathrooms, kitchen remodels, basements, etc...all of our projects are important to us.  Our experienced team of masons, framers, plumbers, electricians, tile workers, painters and carpenters provides you with all the services needed to complete any and all home remodeling.  </p>
 								<br />
-								<p>		In addition, we insure our employees with State Workers' Insurance and liability insurance thru State Farm Insurance Company.  This not only protects our employees, it protects YOU.</p>	
+								<p>		In addition, we insure our employees with State Workers' Insurance and liability insurance thru State Farm Insurance Company.  This not only protects our employees, it protects YOU.</p>
 								<br />
 								<p>		Over the years we have formed bonds with many of our customers and take pride in knowing that they call LAST DETAIL for all of their remodeling needs. Have you heard the saying "when you find a good contractor, you keep him?  Well, Last Detail is the company you are looking to keep, the company you will be proud you chose.   Just ask our many repeat customers.</p>
 								<br />
@@ -197,67 +304,61 @@
 				<!--/more info modal-->
 			</section>
 			<!-- end about section -->
-			
+
 			<!-- portfolio section -->
 			<section id="gallery">
 				<div class="container">
 					<div class="row">
-					
+
 						<div class="sec-title text-center wow animated fadeInDown">
 							<h2>GALLERY</h2>
 						</div>
-						
-
-						<ul class="project-wrapper wow animated fadeInUp">
-							<li class="portfolio-item">
-								<img src="img/gallery/Vernekoff%20Addition%20002.jpg" class="img-responsive">
-							</li>
-							
-							<li class="portfolio-item">
-								<img src="img/gallery/Vernekoff%20Addition%20003.jpg" class="img-responsive">
-							</li>
-							
-							<li class="portfolio-item">
-								<img src="img/gallery/Vernekoff%20Addition%20006.jpg" class="img-responsive">
-							</li>
-							
-							<li class="portfolio-item">
-								<img src="img/gallery/Vernekoff%20Addition%20007.jpg" class="img-responsive">
-							</li>
-							
-							<li class="portfolio-item">
-								<img src="img/gallery/Vernekoff%20Addition%20008.jpg" class="img-responsive">
-							</li>
-
-							<li class="portfolio-item">
-								<img src="img/gallery/VernekoffExteriorAfter%20001.jpg" class="img-responsive">
-							</li>
-							
-							<li class="portfolio-item">
-								<img src="img/gallery/VernekoffExteriorAfter%20002.jpg" class="img-responsive">
-							</li>
-
-							<li class="portfolio-item">
-								<img src="img/gallery/VernekoffExteriorAfter%20003.jpg" class="img-responsive">
-							</li>
-							
-						</ul>
-						
+						<div class="container">
+   							<div id="slides">
+                  <img src="img/gallery/Sharon%20Halper%20Front%20Door%20and%20Overhang%20003.jpg" class="img-responsive">
+                  <img src="img/gallery/Sharon%20Halper%20Kitchen%20001.jpg" class="img-responsive">
+                  <img src="img/gallery/Sharon%20Halper%20Kitchen%20002.jpg" class="img-responsive">
+                  <img src="img/gallery/Sharon%20Halper%20Kitchen%20004.jpg" class="img-responsive">
+                  <img src="img/gallery/Sharon%20Halper%20Kitchen%20005.jpg" class="img-responsive">
+                  <img src="img/gallery/Sharon%20Halper%20Kitchen%20006.jpg" class="img-responsive">
+                  <img src="img/gallery/Shulick%20Wall%20Unit.JPG" class="img-responsive">
+                  <img src="img/gallery/ShulickBuilt-In.JPG" class="img-responsive">
+                  <img src="img/gallery/ShulickKitchen.JPG" class="img-responsive">
+                  <img src="img/gallery/ShulickKitchenIsland.JPG" class="img-responsive">
+                  <img src="img/gallery/ShulickNewFrontDoors.JPG" class="img-responsive">
+                  <img src="img/gallery/SnyderBathroom3.jpg" class="img-responsive">
+                  <img src="img/gallery/SnyderBathroom4.jpg" class="img-responsive">
+                  <img src="img/gallery/SnyderBathroom5.jpg" class="img-responsive">
+                  <img src="img/gallery/SnyderBathroom6.jpg" class="img-responsive">
+                  <img src="img/gallery/Vernekoff%20Addition%20002.jpg" class="img-responsive">
+                  <img src="img/gallery/Vernekoff%20Addition%20003.jpg" class="img-responsive">
+                  <img src="img/gallery/Vernekoff%20Addition%20006.jpg" class="img-responsive">
+                  <img src="img/gallery/Vernekoff%20Addition%20007.jpg" class="img-responsive">
+                  <img src="img/gallery/Vernekoff%20Addition%20008.jpg" class="img-responsive">
+                  <img src="img/gallery/VernekoffExteriorAfter%20001.jpg" class="img-responsive">
+                  <img src="img/gallery/VernekoffExteriorAfter%20002.jpg" class="img-responsive">
+                  <img src="img/gallery/VernekoffExteriorAfter%20003.jpg" class="img-responsive">
+                  <img src="img/gallery/ZIPinBath.JPG" class="img-responsive">
+                  <img src="img/gallery/ZIPinBath1.jpg" class="img-responsive">
+                  <img src="img/gallery/ZIPinBath2.jpg" class="img-responsive">
+                  <img src="img/gallery/ZIPinBath3.jpg" class="img-responsive">
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
 			<!-- end portfolio section -->
-			
+
 			<!-- Testimonial section -->
 			<section id="testimonials" class="parallax">
 				<div class="overlay">
 					<div class="container">
 						<div class="row">
-						
+
 							<div class="sec-title text-center white wow animated fadeInDown">
 								<h2>What people say</h2>
 							</div>
-							
+
 							<div id="testimonial" class=" wow animated fadeInUp">
 								<div class="testimonial-item text-center">
 									<div class="clearfix">
@@ -304,18 +405,18 @@
 				</div>
 			</section>
 			<!-- end Testimonial section -->
-			
+
 			<!-- Contact section -->
 			<section id="contact" >
 				<div class="container">
 					<div class="row">
-						
+
 						<div class="sec-title text-center wow animated fadeInDown">
 							<h2>Contact</h2>
 							<p>Leave a Message</p>
 						</div>
-						
-						
+
+
 						<div class="col-md-7 contact-form wow animated fadeInLeft">
 							<form method="POST" action="https://formspree.io/drewhigginscom@gmail.com">
 								<div class="input-field">
@@ -333,37 +434,37 @@
 						       	<button type="submit" id="submit" class="btn btn-blue btn-effect">Send</button>
 							</form>
 						</div>
-						
+
 						<div class="col-md-5 wow animated fadeInRight">
 							<address class="contact-details">
-								<h3>Contact Us</h3>						
+								<h3>Contact Us</h3>
 								<p><i class="fa fa-pencil"></i>Last Detail Custom Carpentry, Inc.<span>Plymouth Meeting, PA, 19462</span> <span>PA Contractor License # PA040665</span></p><br>
 								<p><i class="fa fa-phone"></i>Phone: (610) 941-6091 </p>
 								<p><i class="fa fa-envelope"></i>LastDetailCarp@aol.com</p>
 							</address>
 						</div>
-			
+
 					</div>
 				</div>
 			</section>
 			<!-- end Contact section -->
-			
+
 			<section id="google-map">
 				<div id="map-canvas" class="wow animated fadeInUp"></div>
 			</section>
-		
+
 		</main>
-		
+
 		<footer id="footer">
 			<div class="container">
 				<div class="row text-center">
-					<div class="footer-content">						
+					<div class="footer-content">
 						<p>Design And developed by <a href="http://drewhiggins.com">Drew Higgins</a>, based on a theme from <a href="http://themefisher.com/">Themefisher</a>. <br />&copy; 2016. All rights Reserved</p>
 					</div>
 				</div>
 			</div>
 		</footer>
-		
+
 		<!-- Essential jQuery Plugins
 		================================================== -->
 		<!-- Main jQuery -->
@@ -405,6 +506,22 @@
 			$(document).ready(function() {
 				$("#submit").click(sendEmail);
 			});
+
 		</script>
+		<script src="js/jquery.slides.min.js"></script>
+		<script>
+		    $(function() {
+		      $('#slides').slidesjs({
+		        width: 940,
+		        height: 800,
+		        play: {
+		          active: true,
+		          auto: true,
+		          interval: 4000,
+		          swap: true
+		        }
+		      });
+		    });
+	    </script>
     </body>
 </html>
