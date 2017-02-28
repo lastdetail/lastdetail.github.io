@@ -2,6 +2,7 @@
 echo var_dump($_POST);
 $name = $_POST["name"];
 $email = $_POST["email"];
+$phone = $_POST["phone"};]
 $message = $_POST["message"];
  
 $EmailTo = "emailaddress@test.com";
@@ -10,6 +11,10 @@ $Subject = "New Message Received";
 // prepare email body text
 $Body .= "Name: ";
 $Body .= $name;
+$Body .= "\n";
+
+$Body .= "Phone: ";
+$Body .= $phone;
 $Body .= "\n";
  
 $Body .= "Email: ";
